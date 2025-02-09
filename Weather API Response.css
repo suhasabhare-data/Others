@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("C:/Users/suhas/OneDrive/Desktop/pngtree-beautiful-gradient-blue-sky-background-png-image_8058989.png") no-repeat center center fixed; /* Replace with your image URL */
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3a86ff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2b6cb0;
+}
+
+#weather {
+    margin-top: 20px;
+}
